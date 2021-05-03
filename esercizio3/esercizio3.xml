@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE TEI  [
+<!ELEMENT TEU (header, facsimile, text)>
+] >
+Per inserire le regole internamente al documento-->
+
+<!DOCTYPE TEI SYSTEM "./esercizio3.dtd">
+
+<TEI>
+    <header>
+        Questo è l'header 
+    </header>
+   <!-- <facsimile></facsimile>-->
+    <text></text>
+    <text></text>
+</TEI>
+
+<!-- mi raccomando, per mettere solo testo bisogna mettere il testo senza tag-->
