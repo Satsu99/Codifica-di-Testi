@@ -1,0 +1,15 @@
+<!ELEMENT TEI (header, facsimile?, text+) >
+
+<!--quello dentro le parentesi è il content model-->
+<!--dobbiamo dichiarare gli altri elementi-->
+
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+
+
+<!--non possiamo dichiarare più elementi insieme, ma uno alla volta come sopra riportato-->
+<!--gli elementi sopra hanno solo testo-->
+<!--se noi avessimo messo un + fuori voleva dire che tutti gli elementi 
+    all'interno della parentesi potevano essere ripetuti in ordine più volte ma una volta 
+    sola per ciascun elemento eccetto il facsimile che ha un ?-->
